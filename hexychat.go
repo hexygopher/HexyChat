@@ -58,10 +58,6 @@ func decryptAES(key, iv, ciphertext []byte) ([]byte, error) {
 	return plaintext, nil
 }
 
-func webUI() {
-
-}
-
 func main() {
 
 }
